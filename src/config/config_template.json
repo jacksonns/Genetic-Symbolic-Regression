@@ -1,0 +1,17 @@
+{
+    "var_num": 2,
+    "population_size": 250,
+    "generations": 250,
+    "train_file": "datasets/synth1/synth1-train.csv",
+    "test_file": "datasets/synth1/synth1-test.csv",
+    "selection":{
+        "name": "roulette",
+        "args": {
+            "k": 2
+        }
+    },
+    "mutation_prob": 0.20,
+    "crossover_prob": 0.75,
+    "elitism": true,
+    "verbose": true
+}
