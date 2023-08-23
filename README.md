@@ -14,7 +14,7 @@ python main.py --config path_to_config_file --results path_to_results_dir
 
 ## Config File
 
-An essential step for running the algorithm is to create a configuration file in JSON format, which includes the population size, number of generations, paths for test and training data, selection method, probabilities of genetic operators, indicators for utilizing elitism, and logging. An example of a possible config file is shown below:
+An essential step for running the algorithm is to create a configuration file in JSON format, which includes the population size, number of generations, paths for test and training data, selection method, probabilities of genetic operators and indicators for utilizing elitism and logging. An example of a possible config file is shown below:
 
 | :exclamation:  The current version of the program only accepts training data with 2 variables. Therefore, "var_num" must be set to 2.  |
 |-----------------------------------------|
